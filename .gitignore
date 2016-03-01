@@ -1,7 +1,10 @@
+,gitignore
+
+# REMEMBER to save this gitignore file with a . before the name
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-*$py.class
 
 # C extensions
 *.so
@@ -43,7 +46,6 @@ htmlcov/
 nosetests.xml
 coverage.xml
 *,cover
-.hypothesis/
 
 # Translations
 *.mo
@@ -51,6 +53,9 @@ coverage.xml
 
 # Django stuff:
 *.log
+env/
+local_settings.py
+
 
 # Sphinx documentation
 docs/_build/
@@ -58,5 +63,6 @@ docs/_build/
 # PyBuilder
 target/
 
-#Ipython Notebook
-.ipynb_checkpoints
+# Sublime stuff
+*.sublime-project
+*.sublime-workspace
